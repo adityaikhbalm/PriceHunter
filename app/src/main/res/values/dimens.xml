@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="rounded_layout">30dp</dimen>
+
+    <dimen name="small">10dp</dimen>
+    <dimen name="small2">15dp</dimen>
+    <dimen name="medium">20dp</dimen>
+    <dimen name="medium2">25dp</dimen>
+    <dimen name="large">30dp</dimen>
+    
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_medium">16sp</dimen>
+    <dimen name="text_medium2">18sp</dimen>
+    <dimen name="text_large">20sp</dimen>
+    <dimen name="text_large2">22sp</dimen>
+    <dimen name="text_extra_large">28sp</dimen>
+</resources>

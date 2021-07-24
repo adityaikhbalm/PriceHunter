@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Price Hunter</string>
+    <string name="slogan">Pilih dan Tentukan\nHarga Terbaik Untukmu</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="popular">Popular</string>
+    <string name="search">Baju baru alhamdulillah…</string>
+</resources>

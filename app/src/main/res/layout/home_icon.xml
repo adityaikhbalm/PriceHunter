@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.adityaikhbalm.pricehunter.custom.ShadowLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:sl_shadow_radius="5dp"
+    app:sl_shadow_distance="0dp"
+    app:sl_shadow_color="@color/p"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.5"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_home"
+        app:tint="@color/p"/>
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/popular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_popular"
+        app:tint="@color/p"/>
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_profile"
+        app:tint="@color/p"/>
+</com.adityaikhbalm.pricehunter.custom.ShadowLayout>

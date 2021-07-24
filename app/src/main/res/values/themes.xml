@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">-->
+    <style name="Theme.PriceHunter" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/medium_dark</item>
+        <item name="colorPrimaryDark">@color/medium_dark</item>
+        <item name="colorAccent">@color/medium_dark</item>
+        <item name="colorPrimaryVariant">@color/high_dark</item>
+        <item name="colorOnPrimary">@color/low_dark</item>
+        <item name="android:navigationBarColor">@color/high_dark</item>
+        <item name="android:windowBackground">@color/base_dark</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="pit_view_appearance">
+        <item name="neuLightShadowColor">@color/base_dark</item>
+        <item name="neuDarkShadowColor">@color/base_dark</item>
+        <item name="softEdgeColor">@color/base_dark</item>
+        <item name="neuCompatColor">@color/base_dark</item>
+    </style>
+
+    <style name="Theme.SearchView" parent="Widget.AppCompat.SearchView">
+        <item name="colorControlActivated">@android:color/holo_blue_dark</item>
+        <item name="android:textColorHint">@color/low_white</item>
+        <item name="android:textColor">@color/medium_white</item>
+        <item name="tint">@color/p</item>
+    </style>
+</resources>

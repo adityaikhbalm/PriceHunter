@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <com.adityaikhbalm.pricehunter.custom.ShadowLayout
+        android:id="@+id/searchLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/small2"
+        app:sl_shadow_color="@color/p"
+        app:sl_shadow_distance="0dp"
+        app:sl_shadow_radius="5dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardCornerRadius="@dimen/rounded_layout"
+            app:cardElevation="5dp"
+            app:strokeColor="@color/p"
+            app:strokeWidth="2dp">
+
+            <SearchView
+                android:id="@+id/searchView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="10000dp"
+                android:iconifiedByDefault="false"
+                android:queryBackground="@android:color/transparent"
+                android:queryHint="@string/search"
+                android:theme="@style/Theme.SearchView" />
+        </com.google.android.material.card.MaterialCardView>
+    </com.adityaikhbalm.pricehunter.custom.ShadowLayout>
+</merge>
